@@ -1,16 +1,62 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="user-scalable=no">
-        <link rel="icon" href="icon/icon.png" type="image/png">
-        <link rel="apple-touch-icon" href="icon/icon.png">
-        <link rel="stylesheet" type="text/css" href="css/game.css">
-        <title>Get To School 5</title>
-    </head>
-    <body style="background-color: black">
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #content {
+            width: 70%;
+            background-color: lightblue;
+            margin: auto;
+        }
+
+        .smallBoxes {
+            width: 40%;
+            background-color: brown;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .BigBox {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .smallBoxes img {
+            width: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <h1 style="text-align: center;">My Website</h1>
+        <div class="BigBox">
+            <div class="smallBoxes">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi illum, dicta tempora recusandae
+                    sed ipsa corrupti nulla fuga nemo dolorem blanditiis a veniam explicabo saepe provident dolor
+                    repudiandae. Quidem, laudantium.</p>
+            </div>
+            <div class="smallBoxes">
+                <h2>My Game</h2>
+                <p>Click <a href="game/index.html">here</a> to play my game.</p>
+            </div>
+        </div>
+        <div class="BigBox">
+            <div class="smallBoxes">
+                <h2>Good Tree</h2>
+                <img src="/free-nature-images.jpg" alt="Image of Good Tree" style="transform: scaleX(-1);">
+            </div>
+            <div class="smallBoxes">
+                <h2>Evil Tree</h2>
+                <img src="/free-nature-images.jpg" alt="Image of Evil Tree" style="filter: invert(100%);">
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
