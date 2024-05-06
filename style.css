@@ -1,0 +1,79 @@
+#div1 {
+    border: 5px solid black;
+    width: 50%;
+    margin: auto;
+    background-color: dodgerblue;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+#div2 {
+    border: 5px solid black;
+    width: 50%;
+    margin: auto;
+    background-color: dodgerblue;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+#div3 {
+    border: 5px solid black;
+    width: 50%;
+    margin: auto;
+    background-color: dodgerblue;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+#HomeHeader {
+    text-align: center;
+}
+#AboutHeader {
+    text-align: center;
+}
+#GameHeader {
+    text-align: center;
+}
+#p1 {
+    text-align: center;
+    margin: 10px;
+}
+#p2 {
+    text-align: center;
+    margin: 10px;
+}
+#p3 {
+    text-align: center;
+    margin: 10px;
+}
+#p4 {
+    text-align: center;
+    margin: 10px;
+}
+#p5 {
+    text-align: center;
+    margin: 10px;
+}
+#p6 {
+    text-align: center;
+    margin: 10px;
+}
+body {
+    background-image: url(https://m.media-amazon.com/images/I/61SVpbYc0wL._AC_.jpg);
+}
+#About1 {
+    border: 2px solid black;
+    margin: 10px;
+}
+#About2 {
+    border: 2px solid black;
+    margin: 10px;
+}
+#About3 {
+    border: 2px solid black;
+    margin: 10px;
+}
+#Extras {
+    border: 2px solid black;
+    margin: 10px;
+}
+#Links {
+    text-align: center;
+}
